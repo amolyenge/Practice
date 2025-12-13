@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.demo.EmployeeCrud.dto.EmployeeDto;
 import com.demo.EmployeeCrud.service.EmployeeService;
 
-@Controller
+@RestController
 @RequestMapping("/employee")
 public class EmployeeController {
 
